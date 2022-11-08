@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(218, 217, 217);
+}
+.container{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.bandera {
+    width: 250px;
+    height: 200px;
+    background-color: black;
+}
+
+.bandera-1{
+    background-image: linear-gradient(red 33%,blue 33% 66%,yellow 33%) 
+}
+
+.bandera-2{
+    background-image: linear-gradient(to right, black 33%,yellow 33% 66%,red 33%) 
+}
+.bandera-3{
+    background-image: linear-gradient( lightblue 35%,white 35% 40%,black 40% 60%, white 60% 65%, lightblue 33%) 
+}
+.bandera-4{
+    background-image: linear-gradient(to right, green 40%, transparent 40% 90%), 
+    linear-gradient( yellow 50%,red 33%) 
+}
+.bandera-5{
+    background-image: linear-gradient(-45deg, red 40%,  yellow 40% 60%,green 60% 90%) 
+}
+.bandera-6{
+    background-image: linear-gradient(-190deg,  transparent 40% 80%,green 80% 90%), linear-gradient(-200deg, transparent 65%,  white 65% ), linear-gradient(-220deg, transparent 45%,  red 45% ), linear-gradient(-240deg, transparent 25%,  yellow 25% ), linear-gradient(-240deg, transparent 0%,  blue 0% )
+}
